@@ -97,12 +97,6 @@ const app = {
             image: "./assets/images/KeTheoDuoiAS.jpg",
         },
         {
-            name: "Đừng Xem Ai Đó Là Cả Thế Giới (Lofi Ver.)",
-            singer: "Orinn",
-            path: "./assets/music/KeTheoDuoiAS.mp3",
-            image: "./assets/images/KeTheoDuoiAS.jpg",
-        },
-        {
             name: "Tình cờ yêu em",
             singer: "Kuu Đức Nam, Linh Thộn",
             path: "./assets/music/TinhCoYeuEm.mp3",
@@ -113,6 +107,36 @@ const app = {
             singer: "Khiem",
             path: "./assets/music/YenBinhCoQDK.mp3",
             image: "./assets/images/YenBinhCoQDK.jpg",
+        },
+        {
+            name: "2AM",
+            singer: "...",
+            path: "./assets/music/2AM.mp3",
+            image: "./assets/images/2AM.jpg",
+        },
+        {
+            name: "CUPID",
+            singer: "FIFTY FIFTY",
+            path: "./assets/music/Cupid.mp3",
+            image: "./assets/images/Cupid.jpg",
+        },
+        {
+            name: "Hymn For The Weekend",
+            singer: "Coldplay",
+            path: "./assets/music/HymnForTheWeekend.mp3",
+            image: "./assets/images/HymnForTheWeekend.jpg",
+        },
+        {
+            name: "Nắng Có Mang Em Về",
+            singer: "Shartnuss",
+            path: "./assets/music/NangCoMangEmVe.mp3",
+            image: "./assets/images/NangCoMangEmVe.jpg",
+        },
+        {
+            name: "Faded",
+            singer: "Alan Walker",
+            path: "./assets/music/faded.mp3",
+            image: "./assets/images/faded.jpg",
         },
     ],
     render: function () {
@@ -250,6 +274,7 @@ const app = {
                 _this.nextSong();
             }
             audio.play();
+            _this.render();
         };
 
         // xử lí phóng to, thu nhỏ đĩa cd khi scroll
