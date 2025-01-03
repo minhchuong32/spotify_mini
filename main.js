@@ -123,8 +123,8 @@ const app = {
         {
             name: "Hymn For The Weekend",
             singer: "Coldplay",
-            path: "./assets/music/HymnForTheWeekend.mp3",
-            image: "./assets/images/HymnForTheWeekend.jpg",
+            path: "./assets/music/HuynForTheWeekend.mp3",
+            image: "./assets/images/HuynForTheWeekend.jpg",
         },
         {
             name: "Nắng Có Mang Em Về",
