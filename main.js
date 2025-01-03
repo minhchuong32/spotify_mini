@@ -100,7 +100,7 @@ const app = {
             name: "Tình cờ yêu em",
             singer: "Kuu Đức Nam, Linh Thộn",
             path: "./assets/music/TinhCoYeuEm.mp3",
-            image: "./assets/images/TinhCoYeuEm.jpg",
+            image: "./assets/images/tinhCoYeuEm.jpg",
         },
         {
             name: "Yên Bình Có Quá Đắt Không",
