@@ -31,6 +31,12 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: "Phonecert",
+            singer: "10cm",
+            path: "./assets/music/phonecert.mp3",
+            image: "./assets/images/phonecert.jpg",
+        },
+        {
             name: "Blue",
             singer: "Young Kai",
             path: "./assets/music/BlueSong.mp3",
