@@ -49,6 +49,12 @@ const app = {
             image: "./assets/images/copines.jpg",
         },
         {
+            name: "Xứng đôi cưới thôi",
+            singer: "Nguyên",
+            path: "./assets/music/xungdoicuoithoi.mp3",
+            image: "./assets/images/xungdoicuoithoi.jpg",
+        },
+        {
             name: "Đừng Làm Trái Tim Anh Dau ",
             singer: "Sơn Tùng M-TP",
             path: "./assets/music/DungLamTraiTimAnhDau.mp3",
