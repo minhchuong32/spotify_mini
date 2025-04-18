@@ -31,6 +31,12 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: "Sprited Away",
+            singer: "Itsumo Nandodemo",
+            path: "./assets/music/Always with me _ Relaxing Music _ 30 Mins (online-audio-converter.com).mp3",
+            image: "./assets/images/sprited_away.png",
+        },
+        {
             name: "Blue",
             singer: "Young Kai",
             path: "./assets/music/Blue.mp3",
